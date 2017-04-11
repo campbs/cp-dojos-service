@@ -1,0 +1,16 @@
+<% include ../common-en_US/header.ejs %>
+<!-- MAIN CONTENT GOES HERE -->
+
+  <h1>Hi <%= applicantName %>,</h1>
+
+  <p> <b><%= event.name %></b> at <%= dojo.name %> has been cancelled..</p>
+
+  <h3>Order Summary</h3>
+  <p> - Date: <%= applicationDate %></p>
+  <p> - Session: <%= sessionName %></p>
+
+  <h3>About this event</h3>
+  <p> - Event date: <%= eventDate %></p>
+  <p> - Event address: <%= event.address %></p>
+
+<% include ../common-en_US/footer.ejs %>

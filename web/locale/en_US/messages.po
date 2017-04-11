@@ -2614,17 +2614,33 @@ msgstr "Avatar upload: max file size of 5MB exceeded."
 msgid "has been cancelled"
 msgstr "has been cancelled"
 
-msgid "Your ticket request for"
-msgstr "Your ticket request for"
+msgid "Your ticket request for %1$s is pending approval"
+msgstr "Your ticket request for %1$s is pending approval"
+
+msgid "Your dojo has been booked please approve"
+msgstr "Your dojo has been booked please approve"
+
+
 
 msgid "Your ticket request for %1$s has been cancelled"
 msgstr "Your ticket request for %1$s has been cancelled"
+
+
+msgid "Your event %1$s has been booked"
+msgstr "Your event %1$s has been booked"
 
 msgid "has been received"
 msgstr "has been received"
 
 msgid "Your ticket request for %1$s has been received"
 msgstr "Your ticket request for %1$s has been received"
+
+msgid "Your event %1$s has a person who needs approval"
+msgstr "Your event %1$s has a person who needs approval"
+
+
+msgid "Your event %1$s has an approved booking"
+msgstr "Your event %1$s has an approved booking"
 
 msgid "has been approved"
 msgstr "has been approved"
