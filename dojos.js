@@ -171,7 +171,7 @@ module.exports = function (options) {
   seneca.add({role: plugin, cmd: 'backfill_champions'}, cmd_backfill_champions);
 
   if (options.kue && options.kue.start) {
-    var kues = ['batch-poller', 'sms-poll', 'email-poll'];
+    var kues = ['batch-poller', 'sms-poll', 'email-poll', 'all-bulk-apply-emails'];
 
     seneca.act({role: 'kue-queue', cmd: 'start', config: options.kue}, function (err, queue) {
       if (!err) {
